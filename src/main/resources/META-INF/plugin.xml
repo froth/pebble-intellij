@@ -58,6 +58,7 @@
                 implementation="com.github.bjansen.intellij.pebble.codeStyle.PebbleLanguageCodeStyleSettingsProvider"/>
         <lang.formatter language="Pebble"
                         implementationClass="com.github.bjansen.intellij.pebble.formatting.PebbleFormattingModelBuilder"/>
+        <fileIndentOptionsProvider implementation="com.github.bjansen.intellij.pebble.formatting.PebbleFileIndentOptionsProvider"/>
         <lang.ast.factory language="Pebble"
                           implementationClass="com.github.bjansen.intellij.pebble.lang.PebbleAstFactory"/>
         <lang.elementManipulator forClass="com.github.bjansen.intellij.pebble.psi.PebbleIdentifier"
